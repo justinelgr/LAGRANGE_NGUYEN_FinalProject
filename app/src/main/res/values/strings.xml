@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GOSSIP GIRL</string>
+    <string name="description_title">What is Gossip Girl?</string>
+    <string name="description1">Gossip Girl is an American teen drama television series based on the book series of the same name written by Cecily von Ziegesar.
+        The series, created by Josh Schwartz and Stephanie Savage, originally ran on The CW network for six seasons from September 19, 2007, to December 17, 2012.</string>
+    <string name="description2">Narrated by the omniscient blogger Gossip Girl (voiced by Kristen Bell), the series revolves around the lives of privileged upper-class adolescents living in the Upper East Side of Manhattan.
+        The series begins with the return of Upper East Side teenage "it girl" Serena van der Woodsen (Blake Lively) from a mysterious absence.
+        She is reunited with her frenemy Blair Waldorf (Leighton Meester) and her mother Lily (Kelly Rutherford), while she also meets Dan Humphrey (Penn Badgley), an aspiring writer from Brooklyn.
+        Other main characters are played by Chace Crawford, Ed Westwick, Taylor Momsen, Jessica Szohr, Matthew Settle and Kaylee DeFer.</string>
+    <string name="description3">The success of Gossip Girl led to adaptations outside the United States.
+        The show has received numerous award nominations, winning 18 Teen Choice Awards.
+        The CW officially renewed Gossip Girl for a sixth and final season on May 11, 2012.
+        The final season, consisting of 10 episodes, premiered on October 8, 2012 and ended on December 17, 2012.</string>
+    <string name="characters">Main characters</string>
+    <string name="seasons">All seasons</string>
+    <string name="menu">Menu</string>
+    <string name="what_is_gg">What is Gossip Girl?</string>
+    <string name="who_are_you">Which character are you?</string>
+</resources>
