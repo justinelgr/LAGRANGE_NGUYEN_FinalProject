@@ -4,43 +4,46 @@ import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class WhichCharacter_Adapter extends BaseAdapter {
 
     private final Context mContext;
-    private final Characters[] icons;
 
-    // 1
-    public WhichCharacter_Adapter(Context context, Characters[] icons) {
-        this.mContext = context;
-        this.icons = icons;
+    // Keep all Images in array
+    public Integer[] icons = {
+            R.drawable.serena_icon, R.drawable.blair_icon,
+            R.drawable.dan_icon, R.drawable.nate_icon
+    };
+
+    // Constructor
+    public WhichCharacter_Adapter(Context c){
+        mContext = c;
     }
 
-    // 2
     @Override
     public int getCount() {
         return icons.length;
     }
 
-    // 3
+    @Override
+    public Object getItem(int position) {
+        return icons[position];
+    }
+
     @Override
     public long getItemId(int position) {
         return 0;
     }
 
-    // 4
-    @Override
-    public Object getItem(int position) {
-        return null;
-    }
-
-    // 5
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        TextView dummyTextView = new TextView(mContext);
-        dummyTextView.setText(String.valueOf(position));
-        return dummyTextView;
+        ImageView imageView = new ImageView(mContext);
+        imageView.setImageResource(icons[position]);
+        imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+        imageView.setLayoutParams(new GridView.LayoutParams(70, 70));
+        return imageView;
     }
-
 }
