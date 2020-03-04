@@ -9,8 +9,9 @@
         android:layout_width="280dp"
         android:layout_height="280dp"
         android:layout_gravity="center"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="5dp"
-        android:layout_marginTop="20dp"/>
+        android:contentDescription="@android:string/fingerprint_icon_content_description" />
 
     <TextView
         android:id="@+id/character_name"
@@ -32,10 +33,9 @@
         <TextView
             android:id="@+id/character_description"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginHorizontal="20dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="20dp" />
+            android:layout_marginTop="5dp" />
 
     </ScrollView>
 
