@@ -6,8 +6,8 @@
     android:numColumns="auto_fit"
     android:columnWidth="90dp"
     android:horizontalSpacing="10dp"
-    android:verticalSpacing="10dp"
+    android:verticalSpacing="30dp"
     android:gravity="center"
-    android:stretchMode="columnWidth" >
+    android:stretchMode="columnWidth">
 
 </GridView>

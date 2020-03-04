@@ -20,7 +20,7 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void whichCharacter(View view){
+    public void mainCharacters(View view){
         Intent intent = new Intent(this, WhichCharacter.class);
         startActivity(intent);
     }
