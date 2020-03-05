@@ -3,6 +3,7 @@ package fr.esilv.lagrange_nguyen_finalproject;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ActionBar;
+import android.app.Activity;
 import android.app.ActivityOptions;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -39,13 +40,15 @@ public class MainActivity extends AppCompatActivity {
 
         timer.schedule( new TimerTask(){
             public void run() {
-                homeActivity();
+                loginActivity();
             }
         }, delay);
+
     }
 
-    public void homeActivity(){
-        Intent intent = new Intent(this, HomeActivity.class);
+    public void loginActivity(){
+        Intent intent = new Intent(MainActivity.this, LoginActivity.class);
         startActivity(intent);
     }
+
 }
