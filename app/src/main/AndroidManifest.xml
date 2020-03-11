@@ -3,7 +3,6 @@
     package="fr.esilv.lagrange_nguyen_finalproject">
 
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,8 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AllSeasonsActivity"></activity>
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".LoginActivity"></activity>
         <activity android:name=".FullImageActivity" />
         <activity android:name=".WhichCharacter" />
         <activity android:name=".WhatIsGG" />

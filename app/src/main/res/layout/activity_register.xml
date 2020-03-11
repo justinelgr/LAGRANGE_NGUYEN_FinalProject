@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".RegisterActivity">
 
     <TextView
-        android:id="@+id/Login"
+        android:id="@+id/Register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/playfair_display_sc"
-        android:text="@string/login"
+        android:text="@string/register"
         android:textAlignment="center"
         android:textSize="50sp"
         android:textStyle="bold"
@@ -21,11 +21,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/email"
-        android:layout_width="250dp"
+        android:id="@+id/reg_email"
+        android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="70dp"
         android:layout_marginRight="8dp"
         android:ems="10"
         android:gravity="center"
@@ -38,18 +37,35 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.35000002" />
+        app:layout_constraintVertical_bias="0.39" />
 
     <EditText
-        android:id="@+id/password"
-        android:layout_width="225dp"
+        android:id="@+id/reg_password"
+        android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="250dp"
         android:layout_marginRight="8dp"
         android:ems="10"
         android:gravity="center"
         android:hint="@string/prompt_password"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="numberPassword"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/reg_password2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/confirm_password"
         android:imeOptions="actionDone"
         android:importantForAutofill="no"
         android:inputType="numberPassword"
@@ -58,60 +74,32 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.22000003" />
+        app:layout_constraintVertical_bias="0.61" />
 
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/reg_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login"
+        android:text="@string/register"
         android:textColor="#FFFAFA"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.68"
-        android:backgroundTint="	#8f0057" />
-
-    <Button
-        android:id="@+id/btn_register"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="@string/register_2"
-        android:textColor="#FFFAFA"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8"
-        android:backgroundTint="	#8f0057" />
-
-    <ImageView
-        android:id="@+id/login_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:layout_marginBottom="36dp"
-        app:layout_constraintBottom_toTopOf="@+id/email"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Login"
-        app:srcCompat="@mipmap/profil_foreground"
-        android:contentDescription="TODO" />
+        app:layout_constraintVertical_bias="0.72"
+        android:backgroundTint="	#8f0057"/>
 
     <ProgressBar
-        android:id="@+id/login_progress"
+        android:id="@+id/reg_progress"
         style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="260dp"
+        android:layout_width="267dp"
         android:layout_height="20dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="17dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="12dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_login"
+        android:layout_marginTop="122dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/reg_email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
-
+        app:layout_constraintTop_toBottomOf="@+id/Register" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

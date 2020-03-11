@@ -15,11 +15,7 @@
     <string name="seasons">All seasons</string>
     <string name="menu">Menu</string>
     <string name="what_is_gg">What is Gossip Girl?</string>
+    <string name="who_are_you">Which character are you?</string>
     <string name="login">Login</string>
     <string name="name">Name</string>
-    <string name="all_seasons">All seasons</string>
-
-    <string name="player_error">Error initializing YouTube player: %s</string>
-    <string name="seek_to">Jump To</string>
-    <string name="seek_to_hint">Seconds</string>
 </resources>
