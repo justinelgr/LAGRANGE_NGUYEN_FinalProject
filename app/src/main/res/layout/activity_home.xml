@@ -38,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="23dp"
-        android:backgroundTint="	#8f0057"
+        android:backgroundTint="#8f0057"
         android:onClick="whatIsGG"
         android:text="@string/what_is_gg"
         android:textAlignment="center"
@@ -50,12 +50,12 @@
         app:layout_constraintTop_toBottomOf="@+id/divider" />
 
     <Button
-        android:id="@+id/sign_in"
+        android:id="@+id/characters"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:backgroundTint="	#8f0057"
+        android:backgroundTint="#8f0057"
         android:onClick="mainCharacters"
         android:text="@string/characters"
         android:textAlignment="center"
@@ -65,5 +65,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/what_is_gg" />
+
+    <Button
+        android:id="@+id/seaons"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#8f0057"
+        android:onClick="allSeasons"
+        android:text="@string/seasons"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/characters" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
