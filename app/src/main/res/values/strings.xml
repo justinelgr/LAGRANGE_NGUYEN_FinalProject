@@ -18,4 +18,9 @@
     <string name="who_are_you">Which character are you?</string>
     <string name="login">Login</string>
     <string name="name">Name</string>
+    <string name="prompt_email">prompt email</string>
+    <string name="prompt_password">prompt password</string>
+    <string name="register_2">register</string>
+    <string name="register">REGISTER</string>
+    <string name="confirm_password">confirm password</string>
 </resources>
