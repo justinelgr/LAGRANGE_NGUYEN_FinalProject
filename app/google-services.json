@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "22030613551",
+    "firebase_url": "https://gossip-girl-ln.firebaseio.com",
+    "project_id": "gossip-girl-ln",
+    "storage_bucket": "gossip-girl-ln.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22030613551:android:8bb6cbfa3fbdc42ef71ada",
+        "android_client_info": {
+          "package_name": "fr.esilv.lagrange_nguyen_finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22030613551-sq4ffi51kltb3e01sesq9a9bqgbvlau6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.esilv.lagrange_nguyen_finalproject",
+            "certificate_hash": "643e08fd6ff836d17d1d71cab87dc003c0803a18"
+          }
+        },
+        {
+          "client_id": "22030613551-4te96efcslo8of48qi89gsfcfqted306.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbHVpLn6amDGzD-o3Bcs6iOpwaPYQP9p4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22030613551-4te96efcslo8of48qi89gsfcfqted306.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
