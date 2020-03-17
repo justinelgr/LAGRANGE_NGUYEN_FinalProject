@@ -30,4 +30,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'com.google.firebase:firebase-analytics:17.2.3'
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
 }

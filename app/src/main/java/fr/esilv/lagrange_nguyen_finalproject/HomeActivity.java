@@ -25,7 +25,7 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void allSeasons(View view){
+    public void seasonsTrailers(View view){
         Intent intent = new Intent(this, AllSeasonsActivity.class);
         startActivity(intent);
     }
