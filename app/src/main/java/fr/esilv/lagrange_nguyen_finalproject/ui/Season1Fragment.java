@@ -22,7 +22,7 @@ public class Season1Fragment extends Fragment {
     private static final int RECOVERY_REQUEST = 1;
     private YouTubePlayerView youTubeView;
 
-    public View onCreateView(@NonNull LayoutInflater inflater,
+    /*public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_season1, container, false);
         youTubeView = (YouTubePlayerView) root.findViewById(R.id.youtube_view);
@@ -57,5 +57,5 @@ public class Season1Fragment extends Fragment {
     public YouTubePlayer.Provider getYouTubePlayerProvider() {
         return youTubeView;
     }
-
+*/
 }
