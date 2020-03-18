@@ -21,41 +21,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/description1"
+        android:id="@+id/description"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:padding="5dp"
         android:text="@string/description1"
         android:textAlignment="viewStart"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/right_space"
-        app:layout_constraintStart_toEndOf="@+id/left_space"
-        app:layout_constraintTop_toBottomOf="@+id/title" />
-
-    <TextView
-        android:id="@+id/description"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:padding="5dp"
-        android:text="@string/description2"
-        android:textAlignment="viewStart"
-        app:layout_constraintEnd_toStartOf="@+id/right_space"
-        app:layout_constraintStart_toEndOf="@+id/left_space"
-        app:layout_constraintTop_toBottomOf="@+id/description1" />
-
-    <TextView
-        android:id="@+id/description2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:padding="5dp"
-        android:text="@string/description3"
-        android:textAlignment="viewStart"
-        app:layout_constraintEnd_toStartOf="@+id/right_space"
-        app:layout_constraintStart_toEndOf="@+id/left_space"
-        app:layout_constraintTop_toBottomOf="@+id/description" />
+        app:layout_constraintStart_toEndOf="@id/left_space"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -65,7 +42,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/description2"
+        app:layout_constraintTop_toBottomOf="@+id/description"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/xoxo" />
 
