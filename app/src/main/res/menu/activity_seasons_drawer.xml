@@ -5,16 +5,28 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_season_1"
+            android:icon="@drawable/icons8_cercle_1_50"
+            android:title="Season 1" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_season_2"
+            android:icon="@drawable/icons8_cercle_2_50"
+            android:title="Season 2" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_season_3"
+            android:icon="@drawable/icons8_cercle_3_50"
+            android:title="Season 3" />
+        <item
+            android:id="@+id/nav_season_4"
+            android:icon="@drawable/icons8_cercle_4_50"
+            android:title="Season 4" />
+        <item
+            android:id="@+id/nav_season_5"
+            android:icon="@drawable/icons8_cercle_5_50"
+            android:title="Season 5" />
+        <item
+            android:id="@+id/nav_season_6"
+            android:icon="@drawable/icons8_cercle_6_50"
+            android:title="Season 6" />
     </group>
 </menu>
