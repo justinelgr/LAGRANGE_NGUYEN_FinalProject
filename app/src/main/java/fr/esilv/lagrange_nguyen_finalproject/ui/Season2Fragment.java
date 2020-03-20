@@ -17,14 +17,6 @@ public class Season2Fragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_season2, container, false);
-        Button btn_trailer = (Button) root.findViewById(R.id.button_s2);
-        btn_trailer.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent Intent = new Intent(getActivity(), SeasonsTrailers.class);
-                startActivity(Intent);
-            }
-        });
         return root;
     }
 }
