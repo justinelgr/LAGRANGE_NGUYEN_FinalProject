@@ -54,4 +54,5 @@
         android:name="fr.esilv.lagrange_nguyen_finalproject.ui.Season6Fragment"
         android:label="Season 6"
         tools:layout="@layout/fragment_season6" />
+
 </navigation>
