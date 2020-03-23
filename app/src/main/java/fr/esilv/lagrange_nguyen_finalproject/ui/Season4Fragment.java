@@ -21,8 +21,10 @@ public class Season4Fragment extends Fragment {
         btn_trailer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent Intent = new Intent(getActivity(), SeasonsTrailers.class);
-                startActivity(Intent);
+                Intent intent = new Intent(getActivity(), SeasonsTrailers.class);
+                String youtube_id = "wO3dP5jrJ8g";
+                intent.putExtra("youtube_id",youtube_id);
+                startActivity(intent);
             }
         });
         return root;

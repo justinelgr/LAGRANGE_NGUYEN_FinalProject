@@ -6,14 +6,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import fr.esilv.lagrange_nguyen_finalproject.LoginActivity;
 import fr.esilv.lagrange_nguyen_finalproject.R;
-import fr.esilv.lagrange_nguyen_finalproject.RegisterActivity;
 import fr.esilv.lagrange_nguyen_finalproject.SeasonsTrailers;
 
 
@@ -26,8 +23,10 @@ public class Season1Fragment extends Fragment {
         btn_trailer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent Intent = new Intent(getActivity(), SeasonsTrailers.class);
-                startActivity(Intent);
+                Intent intent = new Intent(getActivity(), SeasonsTrailers.class);
+                String youtube_id = "eCg1RN-dyQk";
+                intent.putExtra("youtube_id",youtube_id);
+                startActivity(intent);
             }
         });
         return root;
