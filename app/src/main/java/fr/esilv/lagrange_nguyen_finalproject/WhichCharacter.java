@@ -1,15 +1,12 @@
 package fr.esilv.lagrange_nguyen_finalproject;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.SearchView;
 
 public class WhichCharacter extends AppCompatActivity {
 

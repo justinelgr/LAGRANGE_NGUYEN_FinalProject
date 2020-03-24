@@ -37,5 +37,4 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics:17.2.3'
     implementation files('libs/YouTubeAndroidPlayerApi.jar')
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.3'
-    implementation 'androidx.gridlayout:gridlayout:1.0.0'
 }
