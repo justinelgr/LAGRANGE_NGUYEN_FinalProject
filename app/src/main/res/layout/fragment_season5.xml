@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/playfair_display_sc"
-        android:text="Yes, then Zero"
+        android:text="@string/season5"
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold"

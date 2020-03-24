@@ -16,7 +16,8 @@
         <activity
             android:name=".Seasons"
             android:label="@string/title_activity_seasons"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
         <activity android:name=".SeasonsTrailers" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />

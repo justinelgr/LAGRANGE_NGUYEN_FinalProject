@@ -27,9 +27,16 @@
     <string name="player_error">Error initializing YouTube player: %s</string>
     <string name="seek_to">Jump To</string>
     <string name="seek_to_hint">Seconds</string>
-
     <string name="trailers">Seasons trailers</string>
     <string name="title_activity_seasons">Seasons</string>
+
+    <string name="season1">Pilot</string>
+    <string name="season2">Summer Kind of Wonderful</string>
+    <string name="season3">Reversals of Fortune</string>
+    <string name="season4">Belle de Jour</string>
+    <string name="season5">Yes, then Zero</string>
+    <string name="season6">Gone maybe Gone</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -66,7 +73,6 @@
         Nate is determined to take Gossip Girl down for good by trying to find her real identity. Also, the gang comes together to look for a missing Serena, but the search ends with surprising results.</string>
 
     <string name="serena">Serena VAN DER WOODSEN</string>
-    <string name="serena_actor">Blake Lively</string>
     <string name="serena_description">Serena van der Woodsen is the daughter of William and Lily van der Woodsen.
         The story begins with her return to New York from boarding school.
         Shortly after her return, she realizes a lot has changed since she left.
@@ -77,7 +83,6 @@
         In the finale, Dan and Serena get married, surrounded by friends and family.
         \nShe appears to be 16 through 21 years old in the series.</string>
     <string name="blair">Blair WALDORF</string>
-    <string name="blair_actor"></string>
     <string name="blair_description">Blair is the daughter of Harold and Eleanor Waldorf, respectively a
         successful lawyer and fashion designer. Her parents divorce, and her stepfathers include Roman Garrel
         and Cyrus Rose. After failing to build a future with Nate Archibald, Blair begins a relationship
@@ -87,7 +92,6 @@
         shadow and finding how she can shine in her own light. They also surround her romantic relationships,
         namely with Chuck and Louis.</string>
     <string name="dan">Daniel \'Dan\' HUMPHREY</string>
-    <string name="dan_actor"></string>
     <string name="dan_description">Dan Humphrey is the son of rock musician Rufus Humphrey and artist
         Alison Humphrey, and is the older brother of Jenny Humphrey. Dan is a writer/poet and used
         to attend the St. Jude\’s School for Boys with eventual friends Chuck Bass and Nate Archibald.
@@ -101,7 +105,6 @@
         for him to win Serena by writing himself into the Upper East Side, a task he succeeded in by
         the end of the series. In the finale, Dan and Serena get married, surrounded by friends and family.\n</string>
     <string name="nate">Nathaniel \'Nate\' ARCHIBALD</string>
-    <string name="nate_actor"></string>
     <string name="nate_description">Nathaniel \"Nate\" Archibald was born to Howard \"The Captain\" Archibald,
         a successful business magnate and former Navy captain, and Anne Archibald, a member of the Vanderbilt
         family, on April 5th, 1991. Nate is considered to be the \"golden boy of the Upper East Side\".
@@ -115,7 +118,6 @@
         a reporter his intentions of running for mayor of New York; to which he would be the youngest
         mayor in the city\'s history.\n</string>
     <string name="chuck">Charles \'Chuck\' BASS</string>
-    <string name="chuck_actor"></string>
     <string name="chuck_description">Chuck Bass was born on January 19, 1991 and grew up as the only
         child of Bartholomew \"Bart\" Bass, a self-made billionaire who owns the New York Palace Hotel.
         Chuck is generally shown throughout the first two seasons as the group\'s bad boy, and is
@@ -127,7 +129,6 @@
         accident, before being adopted by Lily van der Woodsen, his stepmother, and the only parent
         who Chuck really connected to and loved unconditionally.</string>
     <string name="jenny">Jennifer \'Jenny\' HUMPHREY</string>
-    <string name="jenny_actor"></string>
     <string name="jenny_description">Jenny is the daughter of Rufus and Alison Humphrey and the sister of Dan.
         When the story begins, Jenny is a freshman at Constance Billard and consistently vying for
         Blair\'s attention and approval. However, as the show progresses, Jenny steps away from seeking
@@ -137,7 +138,6 @@
         another and Jenny created a line for Waldorf Designs titled J for Waldorf. Throughout the series
         Jenny is aged 14 to 17.</string>
     <string name="eric">Eric VAND DER WOODSEN</string>
-    <string name="eric_actor"></string>
     <string name="eric_description">Eric is the son of Lily and William van der Woodsen and the younger
         brother of Serena van der Woodsen. He grew up on the Upper East Side and attended St. Jude\'s
         School for Boys before moving to attend Sarah Lawrence College. He is gay.
@@ -145,14 +145,12 @@
         and his friendship with Jenny Humphrey. Unlike many of the other characters on the show,
         Eric tries to stay out of the drama; except for a few notable instances.</string>
     <string name="vanessa">Vanessa ABRAMS</string>
-    <string name="vanessa_actor"></string>
     <string name="vanessa_description">Vanessa is the daughter of Arlo and Gabriela Abrams.
         She grew up on a commune in Vermont before moving to Brooklyn to live with her sister, Ruby.
         She was homeschooled her entire life until she began attending NYU.
         \nVanessa\'s storylines often surround her friendship and eventual romantic relationship with Dan Humphrey;
         as well as her struggle to fit in with his Upper East Side friends.</string>
     <string name="georgina">Georgina SPARKS</string>
-    <string name="georgina_actor"></string>
     <string name="georgina_description">Georgina is an old frenemy of Serena van der Woodsen\'s.
         Also a member of Upper East Side society, Georgina is known for being even more rebellious than
         Serena and often involves herself in dangerous and crazy situations.
@@ -161,7 +159,6 @@
         \nDuring season four she gives birth to her son, Milo Humphrey, and marries Philip Becker.
         In the series finale, New York, I Love You XOXO, it\'s revealed she has begun dating Jack Bass.</string>
     <string name="carter">Carter BAIZEN</string>
-    <string name="carter_actor"></string>
     <string name="carter_description">Carter Baizen is a St. Jude\'s graduate and rival of Nate and Chuck.
         It is mentioned that he turned his back on his parents and so was left without a trust fund
         and was forced to take matters into his own hands by shaping his own future, something that
@@ -170,7 +167,6 @@
         being involved with Blair and sleeps with her, contributing to her downward spiral.
         He soon leaves New York as Serena and Chuck intervene.</string>
     <string name="lily">Lily VAN DER WOODSEN</string>
-    <string name="lily_actor"></string>
     <string name="lily_description">Lily is the daughter of music executive producer Rick Rhodes and
         Celia Rhodes and the younger sister of Carol Rhodes. She grew up in Montecito, California and
         lived on a ranch there before beginning The Thacher School in Santa Barbara as a teenager.
@@ -182,13 +178,11 @@
         on the show surround her relationship with her children and her husbands, namely Rufus, Bart,
         and William, as well as her mother and sister.</string>
     <string name="rufus">Rufus HUMPHREY</string>
-    <string name="rufus_actor"></string>
     <string name="rufus_description">Not much is known about Rufus\' background or his upbringing.
         After graduating high school, he declined his offer to go to college in favor of pursuing music.
         \nThe majority of Rufus\' storylines involve him trying to parent his children, or trying to
         pursue a relationship with Lily van der Woodsen.</string>
     <string name="bart">Bartholomew \'Bart\' BASS</string>
-    <string name="bart_actor"></string>
     <string name="bart_description">Bartholomew \"Bart\" Bass, is Chuck\'s billionaire father,
         founder of Bass Industries and was married to Lily van der Woodsen. His family lived at the
         New York Palace Hotel, which he owned. His money was self-made, as opposed to inherited like
@@ -198,7 +192,6 @@
         wife\'s death (Chuck\'s mother died while giving birth to him.) At times Bart appears to care
         about his son, and asked him to be his best man at the wedding.</string>
     <string name="eleanor">Eleanor WALDORF</string>
-    <string name="eleanor_actor"></string>
     <string name="eleanor_description">Eleanor Waldorf is the fashion designer mother of Blair Waldorf.
         Her decades-long marriage to Blair\'s father, Harold Waldorf, ended when Harold left her to
         pursue a relationship with a French male model, Roman. It is implied through flashbacks that
@@ -206,7 +199,6 @@
         \nHer clothing line \'Eleanor Waldorf Designs\' is being distributed by Barney\'s and Bendel\'s.
         She once employed Jenny as an overworked intern. She later marries her divorce attorney, Cyrus Rose.</string>
     <string name="dorota">Dorota KISHLOVSKY</string>
-    <string name="dorota_actor"></string>
     <string name="dorota_description">Born and raised in Poland as a countess, Dorota\'s parents forced
         her into an arranged marriage. She was then married at a city hall and believes the
         non-traditional wedding caused the marriage to end.
