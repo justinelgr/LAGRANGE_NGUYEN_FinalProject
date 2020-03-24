@@ -2,12 +2,12 @@
     <string name="app_name">GOSSIP GIRL</string>
     <string name="description_title">What is Gossip Girl?</string>
     <string name="description1">Gossip Girl is an American teen drama television series based on the book series of the same name written by Cecily von Ziegesar.
-        The series, created by Josh Schwartz and Stephanie Savage, originally ran on The CW network for six seasons from September 19, 2007, to December 17, 2012.</string>
-    <string name="description2">Narrated by the omniscient blogger Gossip Girl (voiced by Kristen Bell), the series revolves around the lives of privileged upper-class adolescents living in the Upper East Side of Manhattan.
+        The series, created by Josh Schwartz and Stephanie Savage, originally ran on The CW network for six seasons from September 19, 2007, to December 17, 2012.
+        \n\nNarrated by the omniscient blogger Gossip Girl (voiced by Kristen Bell), the series revolves around the lives of privileged upper-class adolescents living in the Upper East Side of Manhattan.
         The series begins with the return of Upper East Side teenage "it girl" Serena van der Woodsen (Blake Lively) from a mysterious absence.
         She is reunited with her frenemy Blair Waldorf (Leighton Meester) and her mother Lily (Kelly Rutherford), while she also meets Dan Humphrey (Penn Badgley), an aspiring writer from Brooklyn.
-        Other main characters are played by Chace Crawford, Ed Westwick, Taylor Momsen, Jessica Szohr, Matthew Settle and Kaylee DeFer.</string>
-    <string name="description3">The success of Gossip Girl led to adaptations outside the United States.
+        Other main characters are played by Chace Crawford, Ed Westwick, Taylor Momsen, Jessica Szohr, Matthew Settle and Kaylee DeFer.
+        \n\nThe success of Gossip Girl led to adaptations outside the United States.
         The show has received numerous award nominations, winning 18 Teen Choice Awards.
         The CW officially renewed Gossip Girl for a sixth and final season on May 11, 2012.
         The final season, consisting of 10 episodes, premiered on October 8, 2012 and ended on December 17, 2012.</string>
@@ -46,28 +46,171 @@
     <string name="synopsis_s1">The privileged prep school teens on Manhattan\'s Upper East Side first learn that Serena van der Woodsen is back in town the way they learn all the important news in their lives: from the blog of the anonymous Gossip Girl.
         No one knows Gossip Girl\'s identity, but everyone in this exclusive circle relies on her website and text blasts for the latest scoop.
         Even Serena\'s best friend, Blair Waldorf, is surprised to find that Serena has suddenly ended her self-imposed exile to boarding school and returned to Manhattan.
-        Whatever the reasons for her return, the change in Serena is obvious, especially to Blair, whose friendship with Serena has always been competitive and difficult.
-        \n</string>
+        Whatever the reasons for her return, the change in Serena is obvious, especially to Blair, whose friendship with Serena has always been competitive and difficult.</string>
     <string name="synopsis_s2">As the summer draws to a close in the Hamptons, Serena and Nate have everyone fooled into thinking they are a couple; to cover up the fact that Nate has been having an affair with an older woman.
         Blair returns from abroad with a hot guy on her arm, making a very jealous Chuck question his decision to stop pursuing Blair.
         Meanwhile, Dan has spent the summer assisting a famous author, but finds himself preoccupied with Serena, leading him to take a risk.
-        While interning for Eleanor Waldorf\'s company, Jenny procures an invite to the much-anticipated Hampton\'s White Party, with the help of Eric van der Woodsen.
-        \n</string>
+        While interning for Eleanor Waldorf\'s company, Jenny procures an invite to the much-anticipated Hampton\'s White Party, with the help of Eric van der Woodsen.</string>
     <string name="synopsis_s3">As the summer is drawing to a close, Blair and Chuck are madly in love and adjusting to their new relationship status, breaking all traditional rules of dating as would be expected.
         Meanwhile, Serena returns from her European adventure with many secrets to hide and Nate returns from his travels with a mysterious brunette in tow.
         With Lily away visiting her mother, Rufus, Dan, and Jenny spend the summer in the Hamptons, adjusting to the van der Woodsen\'s glamorous lifestyle surprisingly faster than any of them expected.
-        Also, Vanessa introduces her new friend to Dan and Rufus.
-        \n</string>
+        Also, Vanessa introduces her new friend to Dan and Rufus.</string>
     <string name="synopsis_s4">Serena and Blair enjoy their summer vacation in Paris trying to take their minds off of home.
         Blair scores a date with a man she suspects is a member of a royal family. Meanwhile, Chuck is recovering in Prague after being found by Eva Coupeau, a waitress who does not know his real identity.
-        Meanwhile, back in New York, Eleanor helps Lily make arrangements for Fashion\'s Night Out at the van der Woodsen penthouse and Dan deals with raising Georgina\'s newborn son Milo, while Nate meets a potential new love interest, Juliet Sharp.
-        \n</string>
+        Meanwhile, back in New York, Eleanor helps Lily make arrangements for Fashion\'s Night Out at the van der Woodsen penthouse and Dan deals with raising Georgina\'s newborn son Milo, while Nate meets a potential new love interest, Juliet Sharp.</string>
     <string name="synopsis_s5">While working as a production assistant in Hollywood, Serena makes a mistake while trying to impress her new boss.
         Chuck and Nate also arrive in California, and Nate gets involved with a mysterious older woman. Meanwhile, Blair and Louis return to New York from Monaco after spending the summer planning their wedding.
-        Also, Dan gets help from Louis in a desperate attempt to prevent an exposing chapter from being published in a magazine and Blair is hiding a major secret from everyone.
-    \n</string>
+        Also, Dan gets help from Louis in a desperate attempt to prevent an exposing chapter from being published in a magazine and Blair is hiding a major secret from everyone.</string>
     <string name="synopsis_s6">Blair and Chuck make a deal that involves putting their whole relationship on the line.
         Meanwhile, Dan returns from Italy after deciding to write a revealing book about the Upper East Side\'s scandals with Georgina\'s help.
-        Nate is determined to take Gossip Girl down for good by trying to find her real identity. Also, the gang comes together to look for a missing Serena, but the search ends with surprising results.
-    \n</string>
+        Nate is determined to take Gossip Girl down for good by trying to find her real identity. Also, the gang comes together to look for a missing Serena, but the search ends with surprising results.</string>
+
+    <string name="serena">Serena VAN DER WOODSEN</string>
+    <string name="serena_actor">Blake Lively</string>
+    <string name="serena_description">Serena van der Woodsen is the daughter of William and Lily van der Woodsen.
+        The story begins with her return to New York from boarding school.
+        Shortly after her return, she realizes a lot has changed since she left.
+        Her friends are not too happy about her return, including her best friend Blair Waldorf.
+        \nShe then meets Dan Humphrey and the two begin a romantic relationship and soon fall in love.
+        Serena\'s storylines often surround her disastrous relationship choices and her struggle to
+        find where she fits in the world outside the Upper East Side.
+        In the finale, Dan and Serena get married, surrounded by friends and family.
+        \nShe appears to be 16 through 21 years old in the series.</string>
+    <string name="blair">Blair WALDORF</string>
+    <string name="blair_actor"></string>
+    <string name="blair_description">Blair is the daughter of Harold and Eleanor Waldorf, respectively a
+        successful lawyer and fashion designer. Her parents divorce, and her stepfathers include Roman Garrel
+        and Cyrus Rose. After failing to build a future with Nate Archibald, Blair begins a relationship
+        with Chuck Bass but later embarks in a failed marriage to Prince Louis Grimaldi.
+        Throughout the duration of the series, Blair is aged 16 to 21-22.
+        \nBlair\'s storylines often surround her struggle with constantly feeling as if she is in Serena\'s
+        shadow and finding how she can shine in her own light. They also surround her romantic relationships,
+        namely with Chuck and Louis.</string>
+    <string name="dan">Daniel \'Dan\' HUMPHREY</string>
+    <string name="dan_actor"></string>
+    <string name="dan_description">Dan Humphrey is the son of rock musician Rufus Humphrey and artist
+        Alison Humphrey, and is the older brother of Jenny Humphrey. Dan is a writer/poet and used
+        to attend the St. Jude\’s School for Boys with eventual friends Chuck Bass and Nate Archibald.
+        Although accepted to Yale, he ends up attending NYU. He had a crush on Serena van der Woodsen
+        that eventually evolved into a relationship that became the longest on the show.
+        He used to despise Serena\’s best friend, Blair Waldorf; but became friends with her and has since dated.
+        \nDan is clever, as he was basically the smartest in his class, and also witty and patient;
+        he works hard for what he wants and normally achieves his goals. Although inexperienced with
+        plotting and manipulation, he demonstrates promise when scheming with Blair.
+        Dan reveals at the end of the series that he was Gossip Girl from the beginning for a way
+        for him to win Serena by writing himself into the Upper East Side, a task he succeeded in by
+        the end of the series. In the finale, Dan and Serena get married, surrounded by friends and family.\n</string>
+    <string name="nate">Nathaniel \'Nate\' ARCHIBALD</string>
+    <string name="nate_actor"></string>
+    <string name="nate_description">Nathaniel \"Nate\" Archibald was born to Howard \"The Captain\" Archibald,
+        a successful business magnate and former Navy captain, and Anne Archibald, a member of the Vanderbilt
+        family, on April 5th, 1991. Nate is considered to be the \"golden boy of the Upper East Side\".
+        Nate is best friends with Chuck Bass, with whom he attends the elite St. Jude\'s School for Boys
+        and shares a deep friendship with.
+        \nThroughout the show, Nate has been involved in numerous romantic relationships, none of which
+        turned out successful. He once said to Dan; that all his life he has chased after girls that
+        have been wrong for him. In the finale he is the only main character who is still single.
+        \nNate has aspirations for a future in politics, it was for this reason he took an interest
+        in running The Spectator. In the finale, Nate on his way to Dan and Serena\'s wedding, tells
+        a reporter his intentions of running for mayor of New York; to which he would be the youngest
+        mayor in the city\'s history.\n</string>
+    <string name="chuck">Charles \'Chuck\' BASS</string>
+    <string name="chuck_actor"></string>
+    <string name="chuck_description">Chuck Bass was born on January 19, 1991 and grew up as the only
+        child of Bartholomew \"Bart\" Bass, a self-made billionaire who owns the New York Palace Hotel.
+        Chuck is generally shown throughout the first two seasons as the group\'s bad boy, and is
+        frequently manipulative. However, a softer side to his personality is formed more for people
+        cares about as the series progresses, most notably Nate and Blair. He often blames himself for
+        his mother\'s death even though it isn\'t his fault, and he has a tendency to not completely
+        trust people and is always in search of ways to succeed.
+        \nChuck is orphaned in his senior year at high school due to the death of his father in a car
+        accident, before being adopted by Lily van der Woodsen, his stepmother, and the only parent
+        who Chuck really connected to and loved unconditionally.</string>
+    <string name="jenny">Jennifer \'Jenny\' HUMPHREY</string>
+    <string name="jenny_actor"></string>
+    <string name="jenny_description">Jenny is the daughter of Rufus and Alison Humphrey and the sister of Dan.
+        When the story begins, Jenny is a freshman at Constance Billard and consistently vying for
+        Blair\'s attention and approval. However, as the show progresses, Jenny steps away from seeking
+        approval and works to be a force in her own right. At the end of the third season Jenny moves
+        to Hudson, New York to live with Alison.
+        \nIn New York, I Love You XOXO it\'s shown that Jenny and Blair fixed their problems with one
+        another and Jenny created a line for Waldorf Designs titled J for Waldorf. Throughout the series
+        Jenny is aged 14 to 17.</string>
+    <string name="eric">Eric VAND DER WOODSEN</string>
+    <string name="eric_actor"></string>
+    <string name="eric_description">Eric is the son of Lily and William van der Woodsen and the younger
+        brother of Serena van der Woodsen. He grew up on the Upper East Side and attended St. Jude\'s
+        School for Boys before moving to attend Sarah Lawrence College. He is gay.
+        \nMany of Eric\'s storylines surround his relationship with his family, namely Serena and Lily,
+        and his friendship with Jenny Humphrey. Unlike many of the other characters on the show,
+        Eric tries to stay out of the drama; except for a few notable instances.</string>
+    <string name="vanessa">Vanessa ABRAMS</string>
+    <string name="vanessa_actor"></string>
+    <string name="vanessa_description">Vanessa is the daughter of Arlo and Gabriela Abrams.
+        She grew up on a commune in Vermont before moving to Brooklyn to live with her sister, Ruby.
+        She was homeschooled her entire life until she began attending NYU.
+        \nVanessa\'s storylines often surround her friendship and eventual romantic relationship with Dan Humphrey;
+        as well as her struggle to fit in with his Upper East Side friends.</string>
+    <string name="georgina">Georgina SPARKS</string>
+    <string name="georgina_actor"></string>
+    <string name="georgina_description">Georgina is an old frenemy of Serena van der Woodsen\'s.
+        Also a member of Upper East Side society, Georgina is known for being even more rebellious than
+        Serena and often involves herself in dangerous and crazy situations.
+        During the first and second seasons, Georgina played a minor role but she returned for longer
+        periods for seasons three through six.
+        \nDuring season four she gives birth to her son, Milo Humphrey, and marries Philip Becker.
+        In the series finale, New York, I Love You XOXO, it\'s revealed she has begun dating Jack Bass.</string>
+    <string name="carter">Carter BAIZEN</string>
+    <string name="carter_actor"></string>
+    <string name="carter_description">Carter Baizen is a St. Jude\'s graduate and rival of Nate and Chuck.
+        It is mentioned that he turned his back on his parents and so was left without a trust fund
+        and was forced to take matters into his own hands by shaping his own future, something that
+        Carter reveals to Serena a week before the cotillion.
+        \nIn the second season, Carter resurfaces in New York with the mysterious Elle but ends up
+        being involved with Blair and sleeps with her, contributing to her downward spiral.
+        He soon leaves New York as Serena and Chuck intervene.</string>
+    <string name="lily">Lily VAN DER WOODSEN</string>
+    <string name="lily_actor"></string>
+    <string name="lily_description">Lily is the daughter of music executive producer Rick Rhodes and
+        Celia Rhodes and the younger sister of Carol Rhodes. She grew up in Montecito, California and
+        lived on a ranch there before beginning The Thacher School in Santa Barbara as a teenager.
+        She also lived in Manhattan as a child, briefly. After being expelled from school, she moved
+        to Los Angeles to live with Carol.
+        \nShe later attended Brown University before marrying William van der Woodsen and moving into
+        a penthouse on the Upper East Side. Before her marriage, she dated Rufus Humphrey and gave
+        birth to their love child, whom she gave up for adoption. The majority of Lily\'s storylines
+        on the show surround her relationship with her children and her husbands, namely Rufus, Bart,
+        and William, as well as her mother and sister.</string>
+    <string name="rufus">Rufus HUMPHREY</string>
+    <string name="rufus_actor"></string>
+    <string name="rufus_description">Not much is known about Rufus\' background or his upbringing.
+        After graduating high school, he declined his offer to go to college in favor of pursuing music.
+        \nThe majority of Rufus\' storylines involve him trying to parent his children, or trying to
+        pursue a relationship with Lily van der Woodsen.</string>
+    <string name="bart">Bartholomew \'Bart\' BASS</string>
+    <string name="bart_actor"></string>
+    <string name="bart_description">Bartholomew \"Bart\" Bass, is Chuck\'s billionaire father,
+        founder of Bass Industries and was married to Lily van der Woodsen. His family lived at the
+        New York Palace Hotel, which he owned. His money was self-made, as opposed to inherited like
+        most Upper East Side families.
+        \nHe was controlling with his family, ruthless in business and demonstrated little affection
+        for Chuck, and it\'s revealed that this is because he holds his son responsible for his late
+        wife\'s death (Chuck\'s mother died while giving birth to him.) At times Bart appears to care
+        about his son, and asked him to be his best man at the wedding.</string>
+    <string name="eleanor">Eleanor WALDORF</string>
+    <string name="eleanor_actor"></string>
+    <string name="eleanor_description">Eleanor Waldorf is the fashion designer mother of Blair Waldorf.
+        Her decades-long marriage to Blair\'s father, Harold Waldorf, ended when Harold left her to
+        pursue a relationship with a French male model, Roman. It is implied through flashbacks that
+        Eleanor knew about Harold\'s sexuality.
+        \nHer clothing line \'Eleanor Waldorf Designs\' is being distributed by Barney\'s and Bendel\'s.
+        She once employed Jenny as an overworked intern. She later marries her divorce attorney, Cyrus Rose.</string>
+    <string name="dorota">Dorota KISHLOVSKY</string>
+    <string name="dorota_actor"></string>
+    <string name="dorota_description">Born and raised in Poland as a countess, Dorota\'s parents forced
+        her into an arranged marriage. She was then married at a city hall and believes the
+        non-traditional wedding caused the marriage to end.
+        \nHer dream was to come to London but her husband wanted to stay in their homeland;
+        so while he was at a football game she left him for America and got a job as a housemaid at
+        the Waldorf\'s. She also is a big fan of Cyndi Lauper.</string>
 </resources>
