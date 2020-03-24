@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_season_1">
+
+    <fragment
+        android:id="@+id/nav_season_1"
+        android:name="fr.esilv.lagrange_nguyen_finalproject.ui.Season1Fragment"
+        android:label="Season 1"
+        tools:layout="@layout/fragment_season1">
+
+        <action
+            android:id="@+id/action_Season1Fragment_to_Season1SecondFragment"
+            app:destination="@id/nav_season_1_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_season_1_second"
+        android:name="fr.esilv.lagrange_nguyen_finalproject.ui.Season1SecondFragment"
+        android:label="Season 1"
+        tools:layout="@layout/fragment_season1_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_season_1" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_season_2"
+        android:name="fr.esilv.lagrange_nguyen_finalproject.ui.Season2Fragment"
+        android:label="Season 2"
+        tools:layout="@layout/fragment_season2" />
+    <fragment
+        android:id="@+id/nav_season_3"
+        android:name="fr.esilv.lagrange_nguyen_finalproject.ui.Season3Fragment"
+        android:label="Season3"
+        tools:layout="@layout/fragment_season3" />
+    <fragment
+        android:id="@+id/nav_season_4"
+        android:name="fr.esilv.lagrange_nguyen_finalproject.ui.Season4Fragment"
+        android:label="Season 4"
+        tools:layout="@layout/fragment_season4" />
+    <fragment
+        android:id="@+id/nav_season_5"
+        android:name="fr.esilv.lagrange_nguyen_finalproject.ui.Season5Fragment"
+        android:label="Season 5"
+        tools:layout="@layout/fragment_season5" />
+    <fragment
+        android:id="@+id/nav_season_6"
+        android:name="fr.esilv.lagrange_nguyen_finalproject.ui.Season6Fragment"
+        android:label="Season 6"
+        tools:layout="@layout/fragment_season6" />
+
+</navigation>

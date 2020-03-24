@@ -14,12 +14,15 @@ public class SeasonsTrailers extends YouTubeBaseActivity implements YouTubePlaye
 
     private static final int RECOVERY_REQUEST = 1;
     private YouTubePlayerView youTubeView;
+    private String youtube_id;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seasons_trailers);
 
+        final Intent intent = getIntent();
+        youtube_id = intent.getStringExtra("youtube_id");
         youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view);
         youTubeView.initialize(Config.YOUTUBE_API_KEY, this);
     }
@@ -27,7 +30,7 @@ public class SeasonsTrailers extends YouTubeBaseActivity implements YouTubePlaye
     @Override
     public void onInitializationSuccess(Provider provider, YouTubePlayer player, boolean wasRestored) {
         if (!wasRestored) {
-            player.cueVideo("fhWaJi1Hsfo"); // Plays https://www.youtube.com/watch?v=fhWaJi1Hsfo
+            player.cueVideo(youtube_id);
         }
     }
 
@@ -45,7 +48,7 @@ public class SeasonsTrailers extends YouTubeBaseActivity implements YouTubePlaye
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == RECOVERY_REQUEST) {
             // Retry initialization if user performed a recovery action
-            getYouTubePlayerProvider().initialize(Config.YOUTUBE_API_KEY, this);
+            getYouTubePlayerProvider().initialize(Config.YOUTUBE_API_KEY, SeasonsTrailers.this);
         }
     }
 
